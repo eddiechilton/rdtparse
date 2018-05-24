@@ -28,4 +28,4 @@ top URLs by sub for certain subs
 author time series on specific authors
 authors by string
 
-
+5/24 broke the script to parse the data down to fight memory constraints. source files for jan data are broken into 10mb chunks.  getting very close to having some data to work with (although extracting and unpacking all 11 other files will take a long time)
