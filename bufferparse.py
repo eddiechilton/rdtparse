@@ -52,7 +52,6 @@ with open("testdata.json", "r") as currentFile:
                     searchStringA = linebreak
                     deltaA = 2
                     jsonScrape(deltaZ, deltaA, deltaG)
-
                 elif sreG == -1:
                     searchStringG = linebreak
                     deltaG = 2
