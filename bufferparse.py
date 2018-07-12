@@ -3,7 +3,7 @@ directory = "/home/postfreedom/Documents/Reddit_Data/jsonparser/"
 moving = open('target.txt', 'w')
 
 def jsonScrape(deltaZ, deltaA, deltaG):
-                            ##Writes substrings to objects
+    ##Writes substrings to objects
     z = x[(x.find(preStringZ)+6):(x.find(searchStringZ, x.find(preStringZ)))-deltaZ]
     a = x[(x.find(preStringA)+12):(x.find(searchStringA, x.find(preStringA)))-deltaA]
     g = x[(x.find(preStringG)+7):(x.find(searchStringG, x.find(preStringG)))-deltaG]
